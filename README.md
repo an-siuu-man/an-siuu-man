@@ -21,27 +21,25 @@ I'm also minoring in Mathematics; it's been one of my favourite subjects both in
 
 ## Notable Projects
 
-### Market Data Microservice | June 2025
-Containerized real-time financial data service using FastAPI, PostgreSQL, and Kafka.
-- Fetched and processed market data with pluggable providers
-- Published data streams to Kafka
-- Designed a normalized schema and modular API for scalability
+Here are the recent projects I’ve been spending the most time on:
 
-### bldr – AI-Powered Course Scheduler ([Devpost](https://devpost.com/software/bldr)) | April 2025 - June 2025
-Award-winning web app that uses AI to generate personalized college course schedules from transcript parsing and real-time course data.
-- Developed frontend with Next.js, Tailwind CSS, and Shadcn UI
-- Integrated Gemini API chatbot for schedule preferences
-- Scraped live course data using Selenium and BeautifulSoup
+### Headstart AI | 2026
+AI-first academic copilot focused on helping students work through assignments with better context and retrieval.
+- Implemented structured assignment resource extraction and improved guide-generation context handling
+- Built and refined the PDF extraction pipeline (including OCR-capable flows) to make document ingestion more reliable
+- Added authenticated, paginated resource APIs and session-aware chat flows for assignment-specific help
 
-### SafeChain – Emergency Decentralized Communication Platform ([Devpost](https://devpost.com/software/safe-chain-3zi5m6)) | March 2025
-Blockchain-based offline messaging system for disaster scenarios.
-- Built React + Leaflet.js UI for peer-to-peer mesh networking
-- Logged message hashes to IPFS and Polygon for tamper-proofing
+### kubldr ([kubldr.com](https://kubldr.com)) | 2025 - 2026
+Course schedule builder focused on fast planning, cleaner UX, and practical student workflows.
+- Shipped responsive calendar and tabbed builder experiences for desktop and smaller screens
+- Improved class/search interactions with keyboard handling, animations, and missing-component alerts
+- Refined auth and navigation flows (including dedicated landing/login routing) and improved in-app feedback via polished notifications
 
-### CodeLingo Code Visualizer ([Devpost](https://devpost.com/software/codelingo-lg9a4q)) | November 2024
-Online C++ code visualizer that displays control flow with interactive diagrams of variable and function scopes.
-- Built with Next.js/React frontend and Flask backend for real-time visualization
-- Completed as a team project in a 36-hour hackathon
+### Market Data Microservice | 2025
+Containerized market data service built around event-driven processing and modular APIs.
+- Built FastAPI endpoints with provider abstractions and typed request/response schemas
+- Added PostgreSQL models and Alembic migrations, then Dockerized the service stack
+- Implemented polling schedulers, moving-average jobs, and startup triggers/listeners for automated ingestion
 
 ---
 
